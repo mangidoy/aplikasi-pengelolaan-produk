@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#gambar {
+  width: 82.8%;
+}
+
+#search {
+  width: 100%;
+}
+
+img {
+  width: 80px;
+  object-fit: cover;
+}
+
+.container {
+  padding: 30px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.447);
+  width: 70%;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 26%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+th {
+  border: 2px solid;
+  color: white;
+  padding: 10px;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+td {
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+
+h3 {
+  text-align: right;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.btn {
+  padding: 8px 12px;
+  font-size: 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-logout {
+  background-color: #4caf50;
+  font-size: 10px;
+  color: #fff;
+  padding: 10px;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover,
+.btn-logout:hover {
+  background-color: green;
+  cursor: pointer;
+}

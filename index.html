@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aplikasi Pengelolaan Produk</h1>
+      <input type="text" placeholder="Nama Produk" id="nama" />
+      <input type="number" placeholder="Harga Produk" id="harga" />
+      <input type="number" placeholder="Jumlah" id="jumlah" />
+      <button onclick="tambahProduk()" class="btn">Tambah Produk</button>
+      <input type="file" id="gambar" accept="image/*" />
+      <input
+        type="search"
+        id="search"
+        placeholder="Cari Produk"
+        onkeyup="cariProduk()"
+      />
+
+      <table>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Gambar</th>
+            <th>Nama Produk</th>
+            <th>Harga</th>
+            <th>Jumlah</th>
+            <th>Total</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+
+        <tbody id="display"></tbody>
+      </table>
+
+      <h3 id="totalAll">Total Harga :</h3>
+
+      <button onclick="logout()" id="logout" class="btn-logout">Logout</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
