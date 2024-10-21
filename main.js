@@ -203,7 +203,7 @@ function login() {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
 
-  if (username === "doy" && password === "sap") {
+  if (username === "doy" && password === "123") {
     alert("Kamu Berhasil Login");
     window.location.href = "index.html";
   } else {
